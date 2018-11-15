@@ -15,7 +15,7 @@ class HomeControl extends CI_Controller
 
     $this->load->view("HomeView", array("tampilData" => $tampilData));
 
-    $this->load->helper('Nama helper');
+    //$this->load->helper('Nama helper');
   }
 }
 
